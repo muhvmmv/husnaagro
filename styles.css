@@ -321,3 +321,171 @@ body {
     margin-bottom: 10px;   
 }
 
+@media (max-width: 768px) {
+
+    body {
+        font-size: 14px;
+        line-height: 1.5;
+        margin-top: 80px;
+    }
+
+    header {
+        padding: 10px 0;
+    }
+
+    .title-container h1 {
+        font-size: 28px;
+    }
+
+    .logo-img {
+        max-width: 70px;
+    }
+
+    nav ul li {
+        margin: 0 10px;
+    }
+
+    nav ul li a {
+        padding: 10px 15px;
+        font-size: 16px;
+    }
+
+    .hero {
+        height: 300px;
+    }
+
+    .hero-text h2 {
+        font-size: 32px;
+    }
+
+    .hero-text p {
+        font-size: 16px;
+    }
+
+    .hero-text .btn {
+        padding: 10px 20px;
+        font-size: 16px;
+    }
+
+    .featured-products {
+        padding: 0 10px;
+    }
+
+    .featured-products h2 {
+        font-size: 28px;
+    }
+
+    .product-grid {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .product-item {
+        width: 80%;
+        margin-bottom: 20px;
+    }
+
+    .product-item img {
+        max-width: 70%;
+    }
+
+    .contact-follow-us {
+        padding: 30px 10px;
+    }
+
+    .contact-us h2, .follow-us h2 {
+        font-size: 28px;
+    }
+
+    .contact-us p, .follow-us p, .contact-details p {
+        font-size: 16px;
+    }
+
+    .social-icon {
+        width: 40px;
+        height: 40px;
+    }
+
+    .team-member img {
+        max-width: 140px;
+    }
+
+    .factory-grid {
+        gap: 15px;
+        justify-content: center;
+    }
+
+    .factory {
+        max-width: 80%;
+        flex: 1 1 200px;
+    }
+
+    .factory img,
+    .factory .media {
+        height: 180px;
+    }
+}
+
+
+@media (max-width: 480px) {
+
+    .title-container h1 {
+        font-size: 24px;
+    }
+
+    .logo-img {
+        max-width: 50px;
+    }
+
+    .hero-text h2 {
+        font-size: 28px;
+    }
+
+    .hero-text p {
+        font-size: 14px;
+    }
+
+    .hero-text .btn {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+
+    .product-item {
+        width: 90%;
+    }
+
+    .product-item h3 {
+        font-size: 22px;
+    }
+
+    .product-item img {
+        max-width: 65%;
+    }
+
+    .contact-us h2, .follow-us h2 {
+        font-size: 24px;
+    }
+
+    .contact-us p, .follow-us p, .contact-details p {
+        font-size: 14px;
+    }
+
+    .social-icon {
+        width: 35px;
+        height: 35px;
+    }
+
+    .team-member img {
+        max-width: 120px;
+    }
+
+    .factory {
+        max-width: 100%;
+    }
+
+    .factory img,
+    .factory .media {
+        height: 160px;
+    }
+}
+
