@@ -334,7 +334,7 @@ body {
     }
 
     .title-container h1 {
-        font-size: 28px;
+        font-size: 24px;
     }
 
     .logo-img {
@@ -430,7 +430,7 @@ body {
 @media (max-width: 480px) {
 
     .title-container h1 {
-        font-size: 24px;
+        font-size: 20px;
     }
 
     .logo-img {
